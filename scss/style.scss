@@ -1,0 +1,19 @@
+
+label{
+  margin-bottom:0;
+}
+
+body{
+  background: #eee;
+}
+canvas {
+  display: block;
+  border: #888 solid 1px;
+  border-radius:14px;
+  width: 100%;
+  height: 500px;
+  image-rendering: pixelated;
+}
+img {
+  display: none;
+}

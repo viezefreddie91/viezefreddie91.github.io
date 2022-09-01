@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"/>
+    <title>Mosaic Generator</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <h4 class="text-center">Mozaiek Inspiratie</h4>
+            <canvas id="canvas"></canvas>
+
+            <img id="img-raw"/>
+
+            <div class="w-100 d-flex py-3 justify-content-between align-items-center">
+                <input id="file" type="file" accept="image/*"/>
+                <span>|</span>
+                <label for="compress-times"> Compressie factor:</label>
+                <input type="range" min="1" max="20" value="0" class="slider" id="compress-times">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="js/script.js"></script>
